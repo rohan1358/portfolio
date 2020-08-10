@@ -2134,7 +2134,7 @@ hero-btn {
 .mobile_menu .slicknav_menu .slicknav_btn {
   top: -55px;
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 980px) {
   .mobile_menu .slicknav_menu .slicknav_btn {
     top: -35px;
   }  
@@ -2922,7 +2922,7 @@ hero-btn {
 .logo-navbars{
   height: 80px;
 }
-@media only screen and  (max-width: 576px) {
+@media only screen and  (max-width: 980px) {
   .logo-navbars {
     height: 40px;
   }

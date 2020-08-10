@@ -2002,17 +2002,17 @@ hero-btn {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-area .main-header {
-    padding: 22px 50px;
+    padding: 10px 25px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-area .main-header {
-    padding: 22px 20px;
+    padding: 8px 20px;
   }
 }
 @media (max-width: 575px) {
   .header-area .main-header {
-    padding: 22px 14px;
+    padding: 7px 14px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -2132,8 +2132,14 @@ hero-btn {
   margin-top: 0px !important;
 }
 .mobile_menu .slicknav_menu .slicknav_btn {
-  top: -70px;
+  top: -55px;
 }
+@media only screen and (max-width: 575px) {
+  .mobile_menu .slicknav_menu .slicknav_btn {
+    top: -35px;
+  }  
+}
+
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
   background-color: #f04e3c !important;
 }
@@ -2192,7 +2198,7 @@ hero-btn {
 }
 @media (max-width: 575px) {
   .slider-height2 {
-    min-height: 260px;
+    /* min-height: 0px; */
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2322,7 +2328,7 @@ hero-btn {
 }
 @media (max-width: 575px) {
   .slider-area .hero-cap {
-    padding-top: 80px;
+    padding-top: 0px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2881,7 +2887,11 @@ hero-btn {
   background: #121212;
 }
 .footer-area .footer-top .single-footer-caption .footer-logo {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width:576)and (max-width: 767px){
+  
 }
 .footer-area .footer-top .single-footer-caption .footer-pera .info1 {
   line-height: 1.8;
@@ -2909,6 +2919,15 @@ hero-btn {
     padding-right: 0px;
   }
 }
+.logo-navbars{
+  height: 80px;
+}
+@media only screen and  (max-width: 576px) {
+  .logo-navbars {
+    height: 40px;
+  }
+}
+
 .footer-area .footer-top .single-footer-caption .footer-tittle h4 {
   color: #fff;
   font-family: "Rubik", sans-serif;

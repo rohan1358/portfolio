@@ -26,7 +26,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Monolog": "index.php"
+                    "Monolog": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
